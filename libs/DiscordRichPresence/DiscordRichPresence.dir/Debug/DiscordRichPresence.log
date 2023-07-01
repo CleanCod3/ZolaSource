@@ -1,0 +1,156 @@
+﻿  Building Custom Rule C:/Users/Mohamed Montaser/Desktop/sro_devkit v2.6.5/source/libs/DiscordRichPresence/CMakeLists.txt
+  DiscordManager.cpp
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\GFXMainFrame\src\GFXMainFrame/IEntity.h(33): error C2118: negative subscript
+          C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\GFXMainFrame\src\GFXMainFrame/IEntity.h(36) : see reference to class template instantiation 'CIEntity::TestFixture<T>' being compiled
+          with
+          [
+              T=CIEntity
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(82): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(91) : see reference to class template instantiation 'CIObject::TestFixture<T>' being compiled
+          with
+          [
+              T=CIObject
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(83): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(84): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(85): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(86): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(87): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IObject.h(88): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/CharacterData.h(41): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/CharacterData.h(44) : see reference to class template instantiation 'CCharacterData::SData::TestFixture<T>' being compiled
+          with
+          [
+              T=CCharacterData::SData
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(151): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(163) : see reference to class template instantiation 'CIGIDObject::TestFixture<T>' being compiled
+          with
+          [
+              T=CIGIDObject
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(153): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(154): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(155): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(156): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(157): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(158): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IGIDObject.h(159): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(538): error C2118: negative subscript
+          C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(557) : see reference to class template instantiation 'CICharactor::TestFixture<T>' being compiled
+          with
+          [
+              T=CICharactor
+          ]
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(539): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(540): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(541): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(542): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(543): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(544): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(545): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(547): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(548): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(549): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(550): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(552): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(553): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(554): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICharactor.h(555): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\UserGuildInfo.h(31): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\UserGuildInfo.h(38) : see reference to class template instantiation 'UserGuildInfo::TestFixture<T>' being compiled
+          with
+          [
+              T=UserGuildInfo
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\UserGuildInfo.h(32): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\UserGuildInfo.h(33): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\UserGuildInfo.h(34): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ICUser.h(47): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ICUser.h(55) : see reference to class template instantiation 'CICUser::TestFixture<T>' being compiled
+          with
+          [
+              T=CICUser
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ICUser.h(48): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ICUser.h(49): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ICUser.h(50): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ICUser.h(51): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ICUser.h(52): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(203): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(206) : see reference to class template instantiation 'CGWndBase::TestFixture<T>' being compiled
+          with
+          [
+              T=CGWndBase
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\TextBoard.h(72): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\TextBoard.h(74) : see reference to class template instantiation 'CTextBoard::TestFixture<T>' being compiled
+          with
+          [
+              T=CTextBoard
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IRMManager.h(51): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IRMManager.h(54) : see reference to class template instantiation 'CIRMManager::TestFixture<T>' being compiled
+          with
+          [
+              T=CIRMManager
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IFWnd.h(196): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IFWnd.h(199) : see reference to class template instantiation 'CIFWnd::TestFixture<T>' being compiled
+          with
+          [
+              T=CIFWnd
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\IFWnd.h(197): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ObjectData.h(66): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ObjectData.h(72) : see reference to class template instantiation 'ObjectData::TestFixture<T>' being compiled
+          with
+          [
+              T=ObjectData
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ObjectData.h(67): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ObjectData.h(68): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\ObjectData.h(69): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(180): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(189) : see reference to class template instantiation 'CItemData::TestFixture<T>' being compiled
+          with
+          [
+              T=CItemData
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(181): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(182): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(183): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(184): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(185): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientlib\src\Data/ItemData.h(186): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(93): error C2118: negative subscript
+          C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(110) : see reference to class template instantiation 'CICPlayer::TestFixture<T>' being compiled
+          with
+          [
+              T=CICPlayer
+          ]
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(94): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(95): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(96): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(97): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(98): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(99): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(100): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(101): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(102): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(103): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(104): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(105): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(106): error C2118: negative subscript
+C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\source\libs\ClientLib\src\ICPlayer.h(107): error C2118: negative subscript
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(136): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(136): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(153): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(160): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(167): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(174): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(179): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(182): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(185): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(208): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name

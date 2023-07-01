@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/GFXMainFrame/CMakeLists.txt
+  GFXMainFrame.cpp
+  GWnd.cpp
+  GWndBase.cpp
+  Process.cpp
+  Camera.cpp
+  Controler.cpp
+  Generating Code...
+  GFXMainFrame.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\GFXMainFrame\Release\GFXMainFrame.lib

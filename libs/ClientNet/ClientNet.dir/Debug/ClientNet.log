@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/Mohamed Montaser/Desktop/sro_devkit v2.6.5/source/libs/ClientNet/CMakeLists.txt
+  MsgStreamBuffer.cpp
+  ClientNet.cpp
+  NetCustoms.cpp
+..\..\..\..\source\libs\ClientNet\src\ClientNet\NetCustoms.cpp(72): warning C4482: nonstandard extension used: enum '_E_MSGHOOK_RESULT' used in qualified name
+..\..\..\..\source\libs\ClientNet\src\ClientNet\NetCustoms.cpp(76): warning C4482: nonstandard extension used: enum '_E_MSGHOOK_RESULT' used in qualified name
+..\..\..\..\source\libs\ClientNet\src\ClientNet\NetCustoms.cpp(96): warning C4482: nonstandard extension used: enum '_E_MSGHOOK_RESULT' used in qualified name
+..\..\..\..\source\libs\ClientNet\src\ClientNet\NetCustoms.cpp(100): warning C4482: nonstandard extension used: enum '_E_MSGHOOK_RESULT' used in qualified name
+  Generating Code...
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientnet\src\clientnet\netcustoms.cpp(31): warning C4700: uninitialized local variable 'a1' used
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\clientnet\src\clientnet\netcustoms.cpp(32): warning C4700: uninitialized local variable 'a2' used
+ClientNet.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+  ClientNet.vcxproj -> C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\helpers\source\libs\ClientNet\Debug\ClientNet.lib

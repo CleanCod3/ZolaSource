@@ -1,0 +1,480 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/CMakeLists.txt
+  CameraWorking.cpp
+  Client.cpp
+  Game.cpp
+  GEffSoundBody.cpp
+  GInterface.cpp
+  GlobalDataManager.cpp
+  IFButton.cpp
+  IFChatViewer.cpp
+..\..\..\..\source\libs\ClientLib\src\IFChatViewer.cpp(1102): warning C4101: 'ex' : unreferenced local variable
+  IFCloseButton.cpp
+  IFDecoratedStatic.cpp
+  IFDragableArea.cpp
+  IFFrame.cpp
+  IFMainFrame.cpp
+  IFPlayerMiniInfo.cpp
+  IFStatic.cpp
+  IFSystemMessage.cpp
+  IFTileWnd.cpp
+  IFWnd.cpp
+  IObject.cpp
+  IRMManager.cpp
+  Generating Code...
+  Compiling...
+  is_this_important.cpp
+  NavigationDeadreckon.cpp
+  PSilkroad.cpp
+  PSOuterInterface.cpp
+  PSVersionCheck.cpp
+  RTLoading.cpp
+  StdAfx.cpp
+  TextBoard.cpp
+  unsorted.cpp
+..\..\..\..\source\libs\ClientLib\src\unsorted.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\unsorted.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+  AlramGuideMgrWnd.cpp
+  IFConfirmReputationGuide.cpp
+  IFEventGuide.cpp
+  IFQuestInfoGuide.cpp
+  IFLetterAlarmGuide.cpp
+  IFServerEventGuide.cpp
+  IFOpenMarketAlramGuide.cpp
+  IFEventGuideSecond.cpp
+  IFflorian0Guide.cpp
+  PSQuickStart.cpp
+  NIFUnderMenuBar.cpp
+..\..\..\..\source\libs\ClientLib\src\NIFUnderMenuBar.cpp(101): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\NIFUnderMenuBar.cpp(119): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\NIFUnderMenuBar.cpp(120): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\NIFUnderMenuBar.cpp(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\NIFUnderMenuBar.cpp(129): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  TextStringManager.cpp
+  IFNotify.cpp
+  IFListCtrl.cpp
+  LinkedScroll.cpp
+  IFVerticalScroll.cpp
+  IFScrollBar.cpp
+  IFTextBox.cpp
+  IFSelectableArea.cpp
+  IFChatModeViewer.cpp
+  ICPlayer.cpp
+  ICUser.cpp
+  IFEdit.cpp
+  CharacterDependentData.cpp
+  NIFCommunityWnd.cpp
+  NIFBlockWnd.cpp
+  ICharactor.cpp
+  IGIDObject.cpp
+  NetProcessSecond.cpp
+  NetProcessThird.cpp
+  PSMission.cpp
+  Generating Code...
+  Compiling...
+  GameCfg.cpp
+  LocalTime.cpp
+  IFflorian0.cpp
+  CPSMission.cpp
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(81): warning C4172: returning address of local variable or temporary
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(2166): warning C4305: '=' : truncation from 'int' to 'bool'
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(2615): warning C4800: 'BYTE' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(2616): warning C4800: 'BYTE' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(2626): warning C4800: 'BYTE' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(2627): warning C4800: 'BYTE' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(3724): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(3826): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4468): warning C4244: '=' : conversion from 'UINT64' to 'UINT16', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4471): warning C4244: '=' : conversion from 'UINT64' to 'UINT16', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4474): warning C4244: '=' : conversion from 'UINT64' to 'UINT16', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4477): warning C4244: '=' : conversion from 'UINT64' to 'UINT16', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4896): warning C4800: 'byte' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4903): warning C4800: 'byte' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4910): warning C4800: 'byte' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4917): warning C4800: 'byte' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4924): warning C4800: 'byte' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(4931): warning C4800: 'byte' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(5195): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp(3949): warning C4101: 'ResurrectSlot' : unreferenced local variable
+  IFEquipment.cpp
+  IFHelperBubbleWindow.cpp
+  IFInventory.cpp
+  IFMainPopup.cpp
+  IFSlotWithHelp.cpp
+  SOItem.cpp
+  IFTaiXiuIcon.cpp
+  hook.cpp
+..\..\..\..\source\libs\ClientLib\src\hook.cpp(8): warning C4309: 'initializing' : truncation of constant value
+  MemoryHack.cpp
+  CPSTitle.cpp
+..\..\..\..\source\libs\ClientLib\src\CPSTitle.cpp(40): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\ClientLib\src\CPSTitle.cpp(45): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  IFNapThe.cpp
+  NetProcessIn.cpp
+  IFSkill.cpp
+  NotificationHandler.cpp
+  CMsgStreamBuffer.cpp
+  IFStretchWnd.cpp
+  Generating Code...
+  Compiling...
+  IFCheckBox.cpp
+  IFChatOptionBoard.cpp
+  IFNormalTile.cpp
+  IFDANGKYEVENT.cpp
+  IFConsole.cpp
+  IFSlotWithHelpForPackage.cpp
+  ICCos.cpp
+  IFTest.cpp
+..\..\..\..\source\libs\ClientLib\src\IFTest.cpp(120): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+..\..\..\..\source\libs\ClientLib\src\IFTest.cpp(178): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+  IFWholeChat.cpp
+  CInterfaceNetSender.cpp
+  IFSpinButtonCtrl.cpp
+  IFflorian0Runtime.cpp
+  IFDailyLoginIcon.cpp
+  IFSTChest.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTChest.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+  IFSTChestSlotList.cpp
+  IFSTChestSlot.cpp
+  IFSpinControl.cpp
+  IFSTOldLogin.cpp
+  Packet.cpp
+  memhelp.cpp
+  Generating Code...
+c:\sro\filters\sro_devkit\source\libs\clientlib\src\ifstoldlogin.cpp(126): warning C4715: 'ShouldLoot' : not all control paths return a value
+  Compiling...
+  IFSTChangeGrantName.cpp
+  IFSTDpsMetter.cpp
+  IFSTCharLock.cpp
+  IFSTUniqueHistory.cpp
+  IFSTUniqueHistorySlotList.cpp
+  IFSTUniqueHistorySlot.cpp
+  Rebot.cpp
+..\..\..\..\source\libs\ClientLib\src\Rebot.cpp(406): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\Rebot.cpp(565): warning C4800: 'BYTE' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\Rebot.cpp(606): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Rebot.cpp(607): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Rebot.cpp(1629): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Rebot.cpp(1630): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  ChatViewerItemAction.cpp
+  GameDataExt.cpp
+  IFSTSwitchTitle.cpp
+  IFSTCustomTitle.cpp
+  IFSTConfirm.cpp
+  IFSTCustomRank.cpp
+  IFSTCustomRankList.cpp
+  IFSTCustomRankSlot.cpp
+  IFSTTaiXiu.cpp
+  ICharactor_Class1.cpp
+  ICharactor_Class2.cpp
+  ICharactor_Class3.cpp
+  ICharactor_Class4.cpp
+  Generating Code...
+c:\sro\filters\sro_devkit\source\libs\clientlib\src\rebot.cpp(1598): warning C4700: uninitialized local variable 'MonsterCount' used
+c:\sro\filters\sro_devkit\source\libs\clientlib\src\rebot.cpp(1624): warning C4700: uninitialized local variable 'FPatrolDestIndexs' used
+  Compiling...
+  IFSTChestIcon.cpp
+  IFSTEventTime.cpp
+  IFSTEventTimeSlot.cpp
+  IFSTEventTimeSlotList.cpp
+  IFSTSurvivalKills.cpp
+  IFSTDailyLogin.cpp
+  IFSTTotalPoints.cpp
+  IFSTTotalPointSlot.cpp
+  IFSTTotalPointSlotList.cpp
+  IFSTEventRegister.cpp
+  IFSTEventRegisterSlot.cpp
+  IFSTEventRegisterSlotList.cpp
+  IFSTEventXoSoMienBac.cpp
+  IFSTEventXoSoMienBacLichSu.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBacLichSu.cpp(150): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+  IFSTEventXoSoMienBacLichSuSlot.cpp
+  IFSTEventXoSoMienBacLichSuSlotList.cpp
+  IFSTLotteryEvent.cpp
+  IFSTPvpChallenge.cpp
+  IFSTPvpChallengeAnswer.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTPvpChallengeAnswer.cpp(130): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+  NIFWorldMap.cpp
+..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp(60): warning C4305: '=' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp(61): warning C4305: '=' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp(62): warning C4305: '=' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp(63): warning C4305: '=' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp(164): warning C4305: '=' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp(172): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp(172): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  AnimationCallback.cpp
+  CObjAnimation.cpp
+  CompSimple.cpp
+  PSCharacterSelect.cpp
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(213): warning C4305: 'initializing' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(214): warning C4305: 'initializing' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(214): warning C4305: 'initializing' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(215): warning C4305: 'initializing' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(215): warning C4305: 'initializing' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(219): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(220): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(290): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(795): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp(878): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  World.cpp
+  IFFade.cpp
+  Keyframe.cpp
+  IFChatWndCtrl.cpp
+  IFMessageBoxButton.cpp
+  IFMessageBox.cpp
+  MemoryHelper.cpp
+  IFSTCharacterIcons.cpp
+  UserGuildInfo.cpp
+  IFSTReverseScrollPlus.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlus.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlus.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+  IFSTReverseScrollPlusSlotList.cpp
+  IFSTReverseScrollPlusSlot.cpp
+  IFSTFTWCounter.cpp
+  CharacterData.cpp
+  IFSTCustomNPC.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPC.cpp(1697): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPC.cpp(1725): warning C4018: '<' : signed/unsigned mismatch
+  IFSTCustomNPCList.cpp
+  Generating Code...
+c:\sro\filters\sro_devkit\source\libs\clientlib\src\ifstcharactericons.cpp(72): warning C4715: 'CharacterIcons::OnCharacterIcon' : not all control paths return a value
+  Compiling...
+  IFSTCustomNPCSlot.cpp
+  IFSTCharItemInfo.cpp
+  Pathfinder.cpp
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(47): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(48): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(49): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(50): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(52): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(52): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(53): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(53): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(54): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(54): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(55): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(55): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(69): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(69): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(77): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(77): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(85): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(85): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(103): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(103): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(103): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(103): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(108): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(108): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(108): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(108): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(113): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(113): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(113): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(113): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(118): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(118): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(118): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp(118): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  Node.cpp
+  IFSTExtraFeature.cpp
+  OptimizeCloth.cpp
+..\..\..\..\source\libs\ClientLib\src\OptimizeCloth.cpp(9): warning C4005: 'MEMUTIL_READ_BY_PTR_OFFSET' : macro redefinition
+          c:\sro\filters\sro_devkit\source\libs\clientlib\src\IFSTChest.h(10) : see previous definition of 'MEMUTIL_READ_BY_PTR_OFFSET'
+  IFReBotIcon.cpp
+  IFSTPetFilter.cpp
+  IFCOS.cpp
+  IFPlayerInfo.cpp
+  IFCOSSetup.cpp
+  IFSliderCtrl.cpp
+  utility.cpp
+..\..\..\..\source\libs\ClientLib\src\HWID Manager\utility.cpp(8): warning C4018: '<' : signed/unsigned mismatch
+  memmgr.cpp
+..\..\..\..\source\libs\ClientLib\src\HWID Manager\memmgr.cpp(26): warning C4482: nonstandard extension used: enum 'E_DetourType' used in qualified name
+..\..\..\..\source\libs\ClientLib\src\HWID Manager\memmgr.cpp(28): warning C4482: nonstandard extension used: enum 'E_DetourType' used in qualified name
+  hwidmgr.cpp
+..\..\..\..\source\libs\ClientLib\src\HWID Manager\hwidmgr.cpp(87): warning C4482: nonstandard extension used: enum 'E_DetourType' used in qualified name
+..\..\..\..\source\libs\ClientLib\src\HWID Manager\hwidmgr.cpp(169): warning C4482: nonstandard extension used: enum 'E_DetourType' used in qualified name
+..\..\..\..\source\libs\ClientLib\src\HWID Manager\hwidmgr.cpp(413): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  CPacket.cpp
+  CEncryption.cpp
+  LoadHWID.cpp
+  base64.cpp
+  HawidManager.cpp
+..\..\..\..\source\libs\ClientLib\src\HWID\HawidManager.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\HWID\HawidManager.cpp(254): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  IFPartyMatchReqJoin.cpp
+  IFPartyMatch.cpp
+  IFPartySlot.cpp
+  IFParty.cpp
+  IFSTStreamSetting.cpp
+  IFSTStremSettingIcon.cpp
+  IFTargetWindowJobPlayer.cpp
+  IFBuffViewer.cpp
+  IFTargetWindowPlayer.cpp
+  IFTargetWindowCommonEnemy.cpp
+..\..\..\..\source\libs\ClientLib\src\IFTargetWindowCommonEnemy.cpp(28): warning C4305: '=' : truncation from 'double' to 'float'
+  IFTargetWindowFortressStructure.cpp
+..\..\..\..\source\libs\ClientLib\src\IFTargetWindowFortressStructure.cpp(32): warning C4305: '=' : truncation from 'double' to 'float'
+  IFTargetWindowSpecialMob.cpp
+..\..\..\..\source\libs\ClientLib\src\IFTargetWindowSpecialMob.cpp(33): warning C4305: '=' : truncation from 'double' to 'float'
+  IFTargetWindow.cpp
+  ICNonuser.cpp
+  ICMonster.cpp
+  IFSTConfimUrl.cpp
+  NIFGuildWnd.cpp
+  NIFButton.cpp
+  IFMagicStateBoard.cpp
+  IFSTMacro.cpp
+  Generating Code...
+  Compiling...
+  IFSTMacroAutoHunt.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1183): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1187): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1191): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1195): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1199): warning C4996: 'swprintf' was declared deprecated
+          C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\swprintf.inl(85) : see declaration of 'swprintf'
+          Message: 'swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.'
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1308): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1319): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1330): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1341): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1352): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(1363): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp(2823): warning C4018: '<' : signed/unsigned mismatch
+  IFPartyMatchSlot.cpp
+  IFSTPartyMatchMemberViewer.cpp
+  IFSTPartyMatchMemberViewerSlot.cpp
+  IFSTPartyMatchMemberViewerSlotList.cpp
+  IFExtQuickSlot.cpp
+  IFExtQuickSlotSlot.cpp
+  IFSlotWithHelpEx.cpp
+  NIFWnd.cpp
+  IFExtQuickSlotSecond.cpp
+..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.cpp(288): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.cpp(289): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.cpp(290): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.cpp(291): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.cpp(292): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.cpp(293): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+  IFExtQuickSlotOption.cpp
+  IFExtQuickSecondSlotOption.cpp
+  IFCircularMenuSlot.cpp
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenuSlot.cpp(106): warning C4305: 'argument' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenuSlot.cpp(107): warning C4305: 'argument' : truncation from 'double' to 'float'
+  IFCircularMenuFrame.cpp
+  IFCircularMenu.cpp
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(92): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(93): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(96): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(96): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(97): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(97): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(98): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(98): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(99): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(99): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(299): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(299): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(309): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(309): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp(350): warning C4305: 'argument' : truncation from 'double' to 'float'
+  IFSTEffect.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(151): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(152): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(164): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(165): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(166): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(179): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(180): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(181): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(196): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(197): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(198): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(215): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(540): warning C4305: 'argument' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(544): warning C4305: 'argument' : truncation from 'double' to 'float'
+..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp(544): warning C4309: 'argument' : truncation of constant value
+  NIFStatic.cpp
+  NIFFrame.cpp
+  NIFTileWnd.cpp
+  NIFDragableArea.cpp
+  Generating Code...
+  Compiling...
+  NIFMainFrame.cpp
+  NIFTextBoard.cpp
+  NIRMManager.cpp
+  IFCOSInfo.cpp
+  IFCOSInventory.cpp
+  IFPetMiniInfo.cpp
+  IFSTMacroAutoBuffSlot.cpp
+  IFSTMacroAutoBuffSlotList.cpp
+  IFSTMacroAutoBuffSkillSlot.cpp
+  IFSTMacroAutoBuffSkillSlotList.cpp
+  IFSTMacroAutoBuffedSkillSlot.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffedSkillSlot.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffedSkillSlot.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+  IFSTMacroAutoBuffedSkillSlotList.cpp
+  SilkroadWeb.cpp
+  IFSTBloodEffect.cpp
+..\..\..\..\source\libs\ClientLib\src\IFSTBloodEffect.cpp(44): warning C4305: 'argument' : truncation from 'double' to 'float'
+  IFSTBattleRoyaleKillCount.cpp
+  IItem.cpp
+  DropItemManager.cpp
+..\..\..\..\source\libs\ClientLib\src\DropItemManager.cpp(271): warning C4390: ';' : empty controlled statement found; is this the intent?
+  Generating Code...
+  md5.cpp
+c:\sro\filters\sro_devkit\source\libs\clientlib\src\hwid manager\md5.cpp(353): warning C4717: 'operator<<' : recursive on all control paths, function will cause runtime stack overflow
+  md5.cpp
+c:\sro\filters\sro_devkit\source\libs\clientlib\src\hwid\md5.cpp(353): warning C4717: 'operator<<' : recursive on all control paths, function will cause runtime stack overflow
+md5.cpp.obj : warning LNK4006: "private: void __thiscall MD5::init(void)" (?init@MD5@@AAEXXZ) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "private: static void __cdecl MD5::decode(unsigned int * const,unsigned char const * const,unsigned int)" (?decode@MD5@@CAXQAIQBEI@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "private: static void __cdecl MD5::encode(unsigned char * const,unsigned int const * const,unsigned int)" (?encode@MD5@@CAXQAEQBII@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "private: void __thiscall MD5::transform(unsigned char const * const)" (?transform@MD5@@AAEXQBE@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "public: void __thiscall MD5::update(unsigned char const *,unsigned int)" (?update@MD5@@QAEXPBEI@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "public: void __thiscall MD5::update(char const *,unsigned int)" (?update@MD5@@QAEXPBDI@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "public: class MD5 & __thiscall MD5::finalize(void)" (?finalize@MD5@@QAEAAV1@XZ) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "public: __thiscall MD5::MD5(void)" (??0MD5@@QAE@XZ) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "public: __thiscall MD5::MD5(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0MD5@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MD5::hexdigest(void)const " (?hexdigest@MD5@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class MD5)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@VMD5@@@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl md5(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?md5@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z) already defined in md5.cpp.obj; second definition ignored
+md5.cpp.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+IItem.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+IFSlotWithHelpEx.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+ICNonuser.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+CharacterData.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+IFChatWndCtrl.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+PSMission.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+IFScrollBar.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+IFLetterAlarmGuide.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+StdAfx.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+PSVersionCheck.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+Client.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+  ClientLib.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\Release\ClientLib.lib

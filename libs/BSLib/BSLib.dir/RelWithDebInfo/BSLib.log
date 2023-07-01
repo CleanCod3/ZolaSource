@@ -1,0 +1,10 @@
+﻿  BSLib.cpp
+  Debug.cpp
+  MsgHandler.cpp
+  StringCheck.cpp
+  MemPoolManager.cpp
+  multibyte.cpp
+  hsl.cpp
+  TypeIdRegistry.cpp
+  Generating Code...
+  BSLib.vcxproj -> C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\helpers\source\libs\BSLib\RelWithDebInfo\BSLib.lib

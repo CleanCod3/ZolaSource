@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/Mohamed Montaser/Desktop/sro_devkit v2.6.5/source/third-party/imgui/CMakeLists.txt
+  imgui.cpp
+  imgui_widgets.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  Generating Code...
+  imgui.vcxproj -> C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\helpers\source\third-party\imgui\RelWithDebInfo\imgui.lib

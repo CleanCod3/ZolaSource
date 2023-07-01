@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/NavMesh/CMakeLists.txt
+  RTNavMeshTerrain.cpp
+  LocationInfo.cpp
+  Generating Code...
+  NavMesh.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\NavMesh\Release\NavMesh.lib

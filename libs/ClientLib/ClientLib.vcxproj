@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{872D28C4-4EE1-38B2-941E-45C5B5F1FFBC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ClientLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ClientLib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ClientLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ClientLib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ClientLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ClientLib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ClientLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ClientLib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ClientLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\source\libs\ClientLib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/libs/ClientLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/libs/ClientLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/libs/ClientLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/libs/ClientLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\ClientLib\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\BufRender.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CameraWorking.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CameraWorking.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Client.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Client.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\ActionWndData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\CharacterData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\DropGoldData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\GachaNpcData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\GameGuideData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\ItemData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\LevelData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\LevelGoldData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\MagicOptionData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\MallItemMenuListData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\MessageTipData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\NPCChatData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\NPCPosData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\QuestData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\RefPackageItemData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\RefPricePolicyOfItem.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\RefScrapOfPackageItemData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\RefShopdata.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\RefShopTabData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\RefShopTabGroupData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\ShopItemStockPeriod.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\ShopItemStockQuantity.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\TeleportBuilding.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\TeleportData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\TeleportLink.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\DxSound.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\EntityManagerClient.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Game.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Game.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GEffSound.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\GEffSoundBody.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GEffSoundBody.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\GInterface.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GInterface.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\GlobalDataManager.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GlobalDataManager.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GlobalHelpersThatHaveNoHomeYet.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GObj.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IDxSound.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFAction.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFApprenticeShip.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFApprenticeShipSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFButton.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFButton.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFChatViewer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFChatViewer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCloseButton.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCloseButton.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFConsole.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFDecoratedStatic.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFDecoratedStatic.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFDragableArea.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFDragableArea.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFEdit.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFEquipment.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFFade.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFFrame.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFFrame.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFGauge.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFHelperBubbleWindow.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFInventory.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFMainFrame.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFMainFrame.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFMainPopup.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFNPCTalk.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFNPCWindow.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFParty.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPartySlot.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPlayerInfo.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFPlayerMiniInfo.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPlayerMiniInfo.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPractice.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFQuest.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFQuickStateHalfWnd.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFQuickStateWnd.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFScrollManager.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSelectableArea.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSkill.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSkillBoard.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSkillPracticeBox.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSlotWithHelp.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSpinButtonCtrl.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFStatic.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFStatic.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFStaticWithPictureClip.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSystemMessage.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSystemMessage.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFStorageRoom.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFStoreForPackage.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFStretchWnd.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSupporterChatWnd.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTextBox.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTileWnd.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTileWnd.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTimerWnd.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFWnd.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFWnd.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IObject.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IObject.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IRMManager.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IRMManager.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\is_this_important.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\is_this_important.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\MessageBoxManager.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NavigationDeadreckon.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NavigationDeadreckon.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\PSilkroad.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PSilkroad.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\PSOuterInterface.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PSOuterInterface.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\PSVersionCheck.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PSVersionCheck.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\RTLoading.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\RTLoading.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\StdAfx.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\StdAfx.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\StringUtils.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\TextBoard.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\TextBoard.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\unsorted.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\unsorted.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\AlramGuideMgrWnd.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\AlramGuideMgrWnd.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFConfirmReputationGuide.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFConfirmReputationGuide.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFEventGuide.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFEventGuide.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFQuestInfoGuide.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFQuestInfoGuide.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFLetterAlarmGuide.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFLetterAlarmGuide.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFServerEventGuide.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFServerEventGuide.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFOpenMarketAlramGuide.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFOpenMarketAlramGuide.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFEventGuideSecond.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFEventGuideSecond.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFflorian0Guide.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFflorian0Guide.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\PSQuickStart.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PSQuickStart.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFUnderMenuBar.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFUnderMenuBar.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\TextStringManager.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\TextStringManager.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFNotify.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFNotify.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFListCtrl.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFListCtrl.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\LinkedScroll.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\LinkedScroll.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFVerticalScroll.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFVerticalScroll.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFScrollBar.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFScrollBar.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTextBox.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSelectableArea.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFChatModeViewer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFChatModeViewer.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICPlayer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICPlayer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\SOItem.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICUser.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICUser.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFEdit.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\SRO_MSG_DEF.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CharacterDependentData.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CharacterDependentData.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFCommunityWnd.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFCommunityWnd.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFBlockWnd.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFBlockWnd.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICharactor.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICharactor.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ClassLink.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IGIDObject.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IGIDObject.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NetProcessIn.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NetProcessSecond.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NetProcessSecond.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NetProcessThird.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NetProcessThird.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\PSMission.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PSMission.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\GameCfg.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GameCfg.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\LocalTime.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\LocalTime.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFflorian0.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFflorian0.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CPSMission.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CPSMission.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFEquipment.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFHelperBubbleWindow.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFInventory.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFMainPopup.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSlotWithHelp.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ObjectData.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\SOItem.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTaiXiuIcon.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTaiXiuIcon.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\hook.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\hook.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\MemoryHack.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\MemoryHack.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CPSTitle.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CPSTitle.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\xlib.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFNapThe.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFNapThe.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NetProcessIn.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSkill.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NotificationHandler.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NotificationHandler.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CMsgStreamBuffer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CMsgStreamBuffer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFStretchWnd.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCheckBox.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCheckBox.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFChatOptionBoard.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFChatOptionBoard.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFNormalTile.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFNormalTile.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFDANGKYEVENT.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFDANGKYEVENT.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFConsole.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFDailyLoginIcon.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSlotWithHelpForPackage.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSlotWithHelpForPackage.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICCos.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICCos.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTest.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTest.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFWholeChat.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFWholeChat.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CInterfaceNetSender.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CInterfaceNetSender.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSpinButtonCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFflorian0Runtime.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFflorian0Runtime.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFDailyLoginIcon.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTChest.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTChest.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTChestSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTChestSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTChestSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTChestSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSpinControl.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSpinControl.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTOldLogin.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTOldLogin.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Packet.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Packet.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\memhelp.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\memhelp.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTChangeGrantName.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTChangeGrantName.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTDpsMetter.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTDpsMetter.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCharLock.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCharLock.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTUniqueHistory.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTUniqueHistory.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTUniqueHistorySlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTUniqueHistorySlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTUniqueHistorySlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTUniqueHistorySlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Rebot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Rebot.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Skill.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ChatViewerItemAction.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ChatViewerItemAction.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\GameDataExt.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\GameDataExt.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTSwitchTitle.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTSwitchTitle.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomTitle.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomTitle.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTConfirm.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTConfirm.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomRank.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomRank.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomRankList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomRankList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomRankSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomRankSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTTaiXiu.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTTaiXiu.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class1.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class1.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class2.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class2.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class3.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class3.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class4.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICharactor_Class4.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTChestIcon.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTChestIcon.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventTime.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventTime.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventTimeSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventTimeSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventTimeSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventTimeSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTSurvivalKills.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTSurvivalKills.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTDailyLogin.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTDailyLogin.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTTotalPoints.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTTotalPoints.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTTotalPointSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTTotalPointSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTTotalPointSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTTotalPointSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventRegister.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventRegister.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventRegisterSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventRegisterSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventRegisterSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventRegisterSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBac.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBac.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBacLichSu.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBacLichSu.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBacLichSuSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBacLichSuSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBacLichSuSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEventXoSoMienBacLichSuSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTLotteryEvent.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTLotteryEvent.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTPvpChallenge.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTPvpChallenge.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTPvpChallengeAnswer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTPvpChallengeAnswer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFWorldMap.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\AnimationCallback.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\AnimationCallback.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CObjAnimation.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CObjAnimation.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\CompSimple.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CompSimple.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PSCharacterSelect.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\World.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\World.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFFade.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Keyframe.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Keyframe.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFChatWndCtrl.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFChatWndCtrl.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFMessageBoxButton.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFMessageBoxButton.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFMessageBox.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFMessageBox.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\MemoryHelper.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\MemoryHelper.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCharacterIcons.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCharacterIcons.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\UserGuildInfo.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\UserGuildInfo.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PartyData.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\PartyMemberData.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlus.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlus.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlusSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlusSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlusSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTReverseScrollPlusSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTFTWCounter.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTFTWCounter.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Data\CharacterData.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPC.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPC.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPCList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPCList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPCSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCustomNPCSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTCharItemInfo.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTCharItemInfo.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Pathfinder.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Pathfinder.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Node.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Node.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\node_set.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTExtraFeature.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTExtraFeature.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\OptimizeCloth.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\OptimizeCloth.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICharInfo.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ChatItemLink.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFReBotIcon.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFReBotIcon.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IItem.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTPetFilter.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTPetFilter.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCOS.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCOS.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFPlayerInfo.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCOSSetup.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCOSSetup.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSliderCtrl.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSliderCtrl.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\CharacterStatistics.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\utility.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\utility.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\memmgr.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\memmgr.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\md5.cpp">
+      <ObjectFileName>$(IntDir)/src/HWID_Manager/md5.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\md5.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\hwidmgr.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\hwidmgr.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\CPacket.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\CPacket.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\CEncryption.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\CEncryption.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\common.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\LoadHWID.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID Manager\LoadHWID.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID\base64.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID\base64.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID\Base64Encode.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID\HawidManager.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID\HawidManager.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\HWID\md5.cpp">
+      <ObjectFileName>$(IntDir)/src/HWID/md5.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\HWID\md5.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFPartyMatchReqJoin.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPartyMatchReqJoin.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFPartyMatch.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPartyMatch.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFPartySlot.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFParty.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTStreamSetting.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTStreamSetting.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTStremSettingIcon.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTStremSettingIcon.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowJobPlayer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowJobPlayer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFBuffViewer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFBuffViewer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowPlayer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowPlayer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowCommonEnemy.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowCommonEnemy.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowFortressStructure.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowFortressStructure.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowSpecialMob.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindowSpecialMob.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindow.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFTargetWindow.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICNonuser.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICNonuser.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\ICMonster.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\ICMonster.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTConfimUrl.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTConfimUrl.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFGuildWnd.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFGuildWnd.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFButton.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFButton.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFMagicStateBoard.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFMagicStateBoard.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacro.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacro.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoHunt.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFPartyMatchSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPartyMatchSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTPartyMatchMemberViewer.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTPartyMatchMemberViewer.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTPartyMatchMemberViewerSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTPartyMatchMemberViewerSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTPartyMatchMemberViewerSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTPartyMatchMemberViewerSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSlotWithHelpEx.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSlotWithHelpEx.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFWnd.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotSecond.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotOption.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSlotOption.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSecondSlotOption.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFExtQuickSecondSlotOption.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCircularMenuSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCircularMenuSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCircularMenuFrame.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCircularMenuFrame.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCircularMenu.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTEffect.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTEffect.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFStatic.cpp" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFFrame.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFFrame.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFTileWnd.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFTileWnd.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFDragableArea.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFDragableArea.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFMainFrame.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFMainFrame.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIFTextBoard.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIFTextBoard.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IGIDObjectCustom.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\NIRMManager.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\NIRMManager.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCOSInfo.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCOSInfo.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFCOSInventory.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFCOSInventory.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFPetMiniInfo.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFPetMiniInfo.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSkillSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSkillSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSkillSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffSkillSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffedSkillSlot.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffedSkillSlot.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffedSkillSlotList.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTMacroAutoBuffedSkillSlotList.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\SilkRoadWeb\SilkroadWeb.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\SilkRoadWeb\SilkroadWeb.h" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\GachaItemSetData.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTBloodEffect.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTBloodEffect.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\IFSTBattleRoyaleKillCount.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\IFSTBattleRoyaleKillCount.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\Data\IItem.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\Data\IItem.h" />
+    <ClCompile Include="..\..\..\..\source\libs\ClientLib\src\DropItemManager.cpp" />
+    <ClInclude Include="..\..\..\..\source\libs\ClientLib\src\DropItemManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\GFX3DFunction\GFX3DFunction.vcxproj">
+      <Project>{B2AC0C46-7CA7-320B-9705-70EB9EECB5AC}</Project>
+      <Name>GFX3DFunction</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

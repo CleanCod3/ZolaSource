@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/third-party/imgui/CMakeLists.txt
+  main.cpp
+  imgui_demo.cpp
+  Generating Code...
+LINK : warning LNK4044: unrecognized option '/DYNAMICBASE'; ignored
+  imgui-demo-win32-dx9.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\third-party\imgui\Release\imgui-demo-win32-dx9.exe

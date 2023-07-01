@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6988D3A-5C4B-3C8B-A94E-059515486AF4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>DevKit_DLL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v80</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SRO\Filters\SRO_DEVKIT\BinOut\RelWithDebInfo\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DevKit_DLL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DevKit_DLL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SRO\Filters\SRO_DEVKIT\BinOut\RelWithDebInfo\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DevKit_DLL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DevKit_DLL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SRO\Filters\SRO_DEVKIT\BinOut\RelWithDebInfo\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DevKit_DLL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DevKit_DLL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SRO\Filters\SRO_DEVKIT\BinOut\RelWithDebInfo\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DevKit_DLL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DevKit_DLL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="Debug";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"Debug\";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>detours.lib;..\libs\BSLib\Debug\BSLib.lib;..\libs\ClientLib\Debug\ClientLib.lib;..\libs\MathHelpers\Debug\MathHelpers.lib;..\third-party\memory\Debug\memory.lib;winmm.lib;..\libs\DiscordRichPresence\Debug\DiscordRichPresence.lib;..\libs\BSLib\Debug\BSLib.lib;..\libs\ClientLib\Debug\ClientLib.lib;..\libs\ClientNet\Debug\ClientNet.lib;..\libs\GFXMainFrame\Debug\GFXMainFrame.lib;..\libs\GFX3DFunction\Debug\GFX3DFunction.lib;..\libs\BSLib\Debug\BSLib.lib;..\libs\ClientLib\Debug\ClientLib.lib;..\libs\ClientNet\Debug\ClientNet.lib;..\libs\GFXMainFrame\Debug\GFXMainFrame.lib;..\libs\GFX3DFunction\Debug\GFX3DFunction.lib;..\libs\GFXFileManagerLIB\Debug\GFXFileManagerLIB.lib;..\libs\NavMesh\Debug\NavMesh.lib;..\libs\TypeId\Debug\TypeId.lib;..\third-party\imgui\Debug\imgui.lib;d3d9.lib;discord_game_sdk.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib;C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /INCREMENTAL:YES</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/Debug/DevKit_DLL.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/Debug/DevKit_DLL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="Release";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"Release\";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>detours.lib;..\libs\BSLib\Release\BSLib.lib;..\libs\ClientLib\Release\ClientLib.lib;..\libs\MathHelpers\Release\MathHelpers.lib;..\third-party\memory\Release\memory.lib;winmm.lib;..\libs\DiscordRichPresence\Release\DiscordRichPresence.lib;..\libs\BSLib\Release\BSLib.lib;..\libs\ClientLib\Release\ClientLib.lib;..\libs\ClientNet\Release\ClientNet.lib;..\libs\GFXMainFrame\Release\GFXMainFrame.lib;..\libs\GFX3DFunction\Release\GFX3DFunction.lib;..\libs\BSLib\Release\BSLib.lib;..\libs\ClientLib\Release\ClientLib.lib;..\libs\ClientNet\Release\ClientNet.lib;..\libs\GFXMainFrame\Release\GFXMainFrame.lib;..\libs\GFX3DFunction\Release\GFX3DFunction.lib;..\libs\GFXFileManagerLIB\Release\GFXFileManagerLIB.lib;..\libs\NavMesh\Release\NavMesh.lib;..\libs\TypeId\Release\TypeId.lib;..\third-party\imgui\Release\imgui.lib;d3d9.lib;discord_game_sdk.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib;C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/Release/DevKit_DLL.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/Release/DevKit_DLL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="MinSizeRel";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"MinSizeRel\";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>detours.lib;..\libs\BSLib\MinSizeRel\BSLib.lib;..\libs\ClientLib\MinSizeRel\ClientLib.lib;..\libs\MathHelpers\MinSizeRel\MathHelpers.lib;..\third-party\memory\MinSizeRel\memory.lib;winmm.lib;..\libs\DiscordRichPresence\MinSizeRel\DiscordRichPresence.lib;..\libs\BSLib\MinSizeRel\BSLib.lib;..\libs\ClientLib\MinSizeRel\ClientLib.lib;..\libs\ClientNet\MinSizeRel\ClientNet.lib;..\libs\GFXMainFrame\MinSizeRel\GFXMainFrame.lib;..\libs\GFX3DFunction\MinSizeRel\GFX3DFunction.lib;..\libs\BSLib\MinSizeRel\BSLib.lib;..\libs\ClientLib\MinSizeRel\ClientLib.lib;..\libs\ClientNet\MinSizeRel\ClientNet.lib;..\libs\GFXMainFrame\MinSizeRel\GFXMainFrame.lib;..\libs\GFX3DFunction\MinSizeRel\GFX3DFunction.lib;..\libs\GFXFileManagerLIB\MinSizeRel\GFXFileManagerLIB.lib;..\libs\NavMesh\MinSizeRel\NavMesh.lib;..\libs\TypeId\MinSizeRel\TypeId.lib;..\third-party\imgui\MinSizeRel\imgui.lib;d3d9.lib;discord_game_sdk.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib;C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/MinSizeRel/DevKit_DLL.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/MinSizeRel/DevKit_DLL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR="RelWithDebInfo";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;WINVER=0x0500;_WIN32_WINNT=0x0500;CONFIG_TRANSLATIONS_DEBUG;CONFIG_OLD_UNDERBAR;CONFIG_CHATVIEWER;CONFIG_CHATVIEWER_BADWORDFILTER;CONFIG_IMGUI;CONFIG_DEBUG_CONSOLE;CONFIG_DEBUG_NET_RECEIVE;CONFIG_OLD_MAINPOPUP;PUT_LOGLEVEL=PUT_WARNING;CMAKE_INTDIR=\"RelWithDebInfo\";DevKit_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 8\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 8\VC\PlatformSDK\include;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\dxsdk\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src\Detours\Include;C:\SRO\Filters\SRO_DEVKIT\source\libs\BSLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientNet\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\abi-testing\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\remodel\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\ghidra\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\ClientLib\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXMainFrame\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFX3DFunction\src;C:\SRO\Filters\SRO_DEVKIT\source\libs\GFXFileManagerLIB\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\NavMesh\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\SimpleViewer\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\TypeId\include;C:\SRO\Filters\SRO_DEVKIT\source\third-party\imgui\.;C:\SRO\Filters\SRO_DEVKIT\source\libs\MathHelpers\src;C:\SRO\Filters\SRO_DEVKIT\source\third-party\memory\include;C:\SRO\Filters\SRO_DEVKIT\source\libs\DiscordRichPresence\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>detours.lib;..\libs\BSLib\RelWithDebInfo\BSLib.lib;..\libs\ClientLib\RelWithDebInfo\ClientLib.lib;..\libs\MathHelpers\RelWithDebInfo\MathHelpers.lib;..\third-party\memory\RelWithDebInfo\memory.lib;winmm.lib;..\libs\DiscordRichPresence\RelWithDebInfo\DiscordRichPresence.lib;..\libs\BSLib\RelWithDebInfo\BSLib.lib;..\libs\ClientLib\RelWithDebInfo\ClientLib.lib;..\libs\ClientNet\RelWithDebInfo\ClientNet.lib;..\libs\GFXMainFrame\RelWithDebInfo\GFXMainFrame.lib;..\libs\GFX3DFunction\RelWithDebInfo\GFX3DFunction.lib;..\libs\BSLib\RelWithDebInfo\BSLib.lib;..\libs\ClientLib\RelWithDebInfo\ClientLib.lib;..\libs\ClientNet\RelWithDebInfo\ClientNet.lib;..\libs\GFXMainFrame\RelWithDebInfo\GFXMainFrame.lib;..\libs\GFX3DFunction\RelWithDebInfo\GFX3DFunction.lib;..\libs\GFXFileManagerLIB\RelWithDebInfo\GFXFileManagerLIB.lib;..\libs\NavMesh\RelWithDebInfo\NavMesh.lib;..\libs\TypeId\RelWithDebInfo\TypeId.lib;..\third-party\imgui\RelWithDebInfo\imgui.lib;d3d9.lib;discord_game_sdk.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/ATLMFC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/LIB/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/VC/PlatformSDK/lib/$(Configuration);C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib;C:/Program Files (x86)/Microsoft Visual Studio 8/SDK/v2.0/lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib;C:/SRO/Filters/SRO_DEVKIT/source/third-party/dxsdk/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/ClientLib/src/Detours/Lib/$(Configuration);C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib;C:/SRO/Filters/SRO_DEVKIT/source/libs/DiscordRichPresence/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /INCREMENTAL:YES</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/RelWithDebInfo/DevKit_DLL.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/RelWithDebInfo/DevKit_DLL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\source\DevKit_DLL\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/DevKit_DLL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/DevKit_DLL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\DevKit_DLL\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/DevKit_DLL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/DevKit_DLL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\DevKit_DLL\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/DevKit_DLL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/DevKit_DLL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\DevKit_DLL\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/DevKit_DLL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SRO/Filters/SRO_DEVKIT -BC:/SRO/Filters/SRO_DEVKIT/helpers --check-stamp-file C:/SRO/Filters/SRO_DEVKIT/helpers/source/DevKit_DLL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SRO\Filters\SRO_DEVKIT\helpers\source\DevKit_DLL\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\DllMain.cpp" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\hooks\Hooks.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\hooks\Hooks.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\hooks\GFXVideo3d_Hook.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\hooks\GFXVideo3d_Hook.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\hooks\WndProc_Hook.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\hooks\WndProc_Hook.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\hooks\CGame_Hook.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\hooks\CGame_Hook.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ImGui_Windows.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ImGui_Windows.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\InterfaceDebugger.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\InterfaceDebugger.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\SoundTool.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\SoundTool.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\NavMeshTool.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\NavMeshTool.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\EntityExplorer.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\EntityExplorer.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\NotificationTool.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\NotificationTool.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\About.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\About.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\SystemMessage.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\SystemMessage.h" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ErrorMessageTool.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ErrorMessageTool.cpp" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\Util.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\Util.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\QuickStart.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\QuickStart.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MathUtil.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MathUtil.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\NameGenerator.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\NameGenerator.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\InterfaceTree.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\InterfaceTree.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\buffer.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\buffer.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\hde32.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\hde32.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\hde64.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\hde64.h" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\hook.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\hook.cpp" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\MinHook.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\MinHook.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\pstdint.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\pstdint.h" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\table32.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\table64.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\table64.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\MinHook\trampoline.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\MinHook\trampoline.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ProcessViewer.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ProcessViewer.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\PartyInfo.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\PartyInfo.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\CharacterData.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\CharacterData.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\Inventory.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\Inventory.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ColorPicker.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ColorPicker.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ItemData.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\ItemData.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\PetFilter.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\PetFilter.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\FPSViewer.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\FPSViewer.h" />
+    <ClCompile Include="..\..\..\source\DevKit_DLL\src\imgui_windows\CircleDrawTool.cpp" />
+    <ClInclude Include="..\..\..\source\DevKit_DLL\src\imgui_windows\CircleDrawTool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\ZERO_CHECK.vcxproj">
+      <Project>{5E57B61A-7847-3810-A46B-502F97C6B352}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\BSLib\BSLib.vcxproj">
+      <Project>{2750A277-C53D-3A0B-941C-F19967C70E3B}</Project>
+      <Name>BSLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\DiscordRichPresence\DiscordRichPresence.vcxproj">
+      <Project>{CA47378F-C104-38BC-A1FB-8F4D90E084DC}</Project>
+      <Name>DiscordRichPresence</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\GFXFileManagerLIB\GFXFileManagerLIB.vcxproj">
+      <Project>{F293B576-4E83-3A3C-95CC-01CFC1A16D98}</Project>
+      <Name>GFXFileManagerLIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\MathHelpers\MathHelpers.vcxproj">
+      <Project>{BF00B07F-47E6-3CA0-BE42-4D57449352D1}</Project>
+      <Name>MathHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\NavMesh\NavMesh.vcxproj">
+      <Project>{690E1B38-10BB-31FB-BC2F-3AFA9C80EF54}</Project>
+      <Name>NavMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\TypeId\TypeId.vcxproj">
+      <Project>{DF23AF14-2C14-3B08-B7B9-C44DC2056599}</Project>
+      <Name>TypeId</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\third-party\imgui\imgui.vcxproj">
+      <Project>{A22B1EBE-A3CE-35FF-8BFF-EAFB76A3D18F}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\SRO\Filters\SRO_DEVKIT\helpers\source\third-party\memory\memory.vcxproj">
+      <Project>{04A3FDD7-B136-3CCD-B7E5-59210609D9D9}</Project>
+      <Name>memory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

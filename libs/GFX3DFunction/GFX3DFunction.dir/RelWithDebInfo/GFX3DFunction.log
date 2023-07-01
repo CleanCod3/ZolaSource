@@ -1,0 +1,15 @@
+﻿  d3dapp.cpp
+  d3denumeration.cpp
+  d3dsettings.cpp
+  d3dutil.cpp
+  dxutil.cpp
+  DrawingHelpers.cpp
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  GFXVideo3d.cpp
+  GFontTexture.cpp
+  RStateMgr.cpp
+  Generating Code...
+  GFX3DFunction.vcxproj -> C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\helpers\source\libs\GFX3DFunction\RelWithDebInfo\GFX3DFunction.lib

@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/tests/CMakeLists.txt
+  main.cpp
+  vc80-stl.cpp
+  ClientLib.cpp
+  Generating Code...
+LINK : warning LNK4044: unrecognized option '/DYNAMICBASE'; ignored
+  tests.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\tests\Release\tests.exe

@@ -1,0 +1,72 @@
+﻿  Building Custom Rule C:/Users/Mohamed Montaser/Desktop/sro_devkit v2.6.5/source/libs/GFX3DFunction/CMakeLists.txt
+  DrawingHelpers.cpp
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(203): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(206) : see reference to class template instantiation 'CGWndBase::TestFixture<T>' being compiled
+          with
+          [
+              T=CGWndBase
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(49): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(60) : see reference to class template instantiation 'CProcess::TestFixture<T>' being compiled
+          with
+          [
+              T=CProcess
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(50): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(51): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(52): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(53): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(54): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(55): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(56): error C2118: negative subscript
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  GFontTexture.cpp
+  GFXVideo3d.cpp
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(203): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(206) : see reference to class template instantiation 'CGWndBase::TestFixture<T>' being compiled
+          with
+          [
+              T=CGWndBase
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(49): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(60) : see reference to class template instantiation 'CProcess::TestFixture<T>' being compiled
+          with
+          [
+              T=CProcess
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(50): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(51): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(52): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(53): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(54): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(55): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(56): error C2118: negative subscript
+  d3dapp.cpp
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(203): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\GWndBase.h(206) : see reference to class template instantiation 'CGWndBase::TestFixture<T>' being compiled
+          with
+          [
+              T=CGWndBase
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(49): error C2118: negative subscript
+          c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(60) : see reference to class template instantiation 'CProcess::TestFixture<T>' being compiled
+          with
+          [
+              T=CProcess
+          ]
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(50): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(51): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(52): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(53): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(54): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(55): error C2118: negative subscript
+c:\users\mohamed montaser\desktop\sro_devkit v2.6.5\source\libs\gfxmainframe\src\gfxmainframe\Process.h(56): error C2118: negative subscript
+  d3denumeration.cpp
+  d3dsettings.cpp
+  d3dutil.cpp
+  dxutil.cpp
+  RStateMgr.cpp
+  Generating Code...

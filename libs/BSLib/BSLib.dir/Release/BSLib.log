@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/BSLib/CMakeLists.txt
+  MemPoolManager.cpp
+  BSLib.cpp
+  MsgHandler.cpp
+  multibyte.cpp
+  StringCheck.cpp
+  Debug.cpp
+  hsl.cpp
+  TypeIdRegistry.cpp
+  Generating Code...
+  BSLib.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\BSLib\Release\BSLib.lib

@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Mohamed Montaser/Desktop/sro_devkit v2.6.5/source/tests/CMakeLists.txt
+  main.cpp
+  vc80-stl.cpp
+  ClientLib.cpp
+  Generating Code...
+LINK : warning LNK4044: unrecognized option '/DYNAMICBASE'; ignored
+LINK : fatal error LNK1104: cannot open file '..\libs\ClientLib\Debug\ClientLib.lib'

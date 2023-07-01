@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/TypeId/CMakeLists.txt
+  TypeIdRegistry.cpp
+  TypeId.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\TypeId\Release\TypeId.lib

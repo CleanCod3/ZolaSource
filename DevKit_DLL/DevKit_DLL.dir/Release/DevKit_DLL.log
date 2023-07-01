@@ -1,0 +1,60 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/DevKit_DLL/CMakeLists.txt
+  DllMain.cpp
+  Hooks.cpp
+  GFXVideo3d_Hook.cpp
+  WndProc_Hook.cpp
+  CGame_Hook.cpp
+  ImGui_Windows.cpp
+..\..\..\source\DevKit_DLL\src\imgui_windows\ImGui_Windows.cpp(459): warning C4244: '=' : conversion from 'time_t' to 'unsigned long', possible loss of data
+  InterfaceDebugger.cpp
+  SoundTool.cpp
+..\..\..\source\DevKit_DLL\src\imgui_windows\SoundTool.cpp(69): warning C4018: '>=' : signed/unsigned mismatch
+  NavMeshTool.cpp
+  EntityExplorer.cpp
+  NotificationTool.cpp
+  About.cpp
+  SystemMessage.cpp
+  ErrorMessageTool.cpp
+  Util.cpp
+..\..\..\source\DevKit_DLL\src\Util.cpp(518): warning C4244: '=' : conversion from 'float' to 'char', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(519): warning C4244: '=' : conversion from 'float' to 'char', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(520): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(521): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(527): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(528): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(546): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(547): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\Util.cpp(1081): warning C4018: '<' : signed/unsigned mismatch
+  QuickStart.cpp
+  MathUtil.cpp
+  NameGenerator.cpp
+  InterfaceTree.cpp
+  buffer.cpp
+  Generating Code...
+  Compiling...
+  hde32.cpp
+  hde64.cpp
+  hook.cpp
+  MinHook.cpp
+  pstdint.cpp
+  table64.cpp
+  trampoline.cpp
+  ProcessViewer.cpp
+  PartyInfo.cpp
+  CharacterData.cpp
+  Inventory.cpp
+  ColorPicker.cpp
+..\..\..\source\DevKit_DLL\src\imgui_windows\ColorPicker.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\imgui_windows\ColorPicker.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  ItemData.cpp
+  PetFilter.cpp
+  FPSViewer.cpp
+..\..\..\source\DevKit_DLL\src\imgui_windows\FPSViewer.cpp(28): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\imgui_windows\FPSViewer.cpp(28): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  CircleDrawTool.cpp
+..\..\..\source\DevKit_DLL\src\imgui_windows\CircleDrawTool.cpp(30): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+..\..\..\source\DevKit_DLL\src\imgui_windows\CircleDrawTool.cpp(30): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+LINK : warning LNK4044: unrecognized option '/DYNAMICBASE'; ignored
+     Creating library C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/Release/DevKit_DLL.lib and object C:/SRO/Filters/SRO_DEVKIT/BinOut/RelWithDebInfo/Release/DevKit_DLL.exp
+  DevKit_DLL.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\BinOut\RelWithDebInfo\Release\DevKit_DLL.dll

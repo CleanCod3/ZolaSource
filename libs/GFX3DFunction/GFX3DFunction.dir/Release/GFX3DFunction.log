@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/SRO/Filters/SRO_DEVKIT/source/libs/GFX3DFunction/CMakeLists.txt
+  DrawingHelpers.cpp
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+..\..\..\..\source\libs\GFX3DFunction\src\GFX3DFunction\DrawingHelpers.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  GFontTexture.cpp
+  GFXVideo3d.cpp
+  d3dapp.cpp
+  d3denumeration.cpp
+  d3dsettings.cpp
+  d3dutil.cpp
+  dxutil.cpp
+  RStateMgr.cpp
+  Generating Code...
+  GFX3DFunction.vcxproj -> C:\SRO\Filters\SRO_DEVKIT\helpers\source\libs\GFX3DFunction\Release\GFX3DFunction.lib

@@ -1,0 +1,6 @@
+﻿  ClientLib.cpp
+  main.cpp
+  vc80-stl.cpp
+  Generating Code...
+LINK : warning LNK4044: unrecognized option '/DYNAMICBASE'; ignored
+  tests.vcxproj -> C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\helpers\source\tests\RelWithDebInfo\tests.exe

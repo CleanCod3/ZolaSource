@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/Mohamed Montaser/Desktop/sro_devkit v2.6.5/source/libs/DiscordRichPresence/CMakeLists.txt
+  DiscordManager.cpp
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(136): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(136): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(153): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(160): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(167): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(174): warning C4482: nonstandard extension used: enum 'GAME_STATE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(179): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(182): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(185): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name
+..\..\..\..\source\libs\DiscordRichPresence\src\DiscordRichPresence\DiscordManager.cpp(208): warning C4482: nonstandard extension used: enum 'TRIJOB_TYPE' used in qualified name
+  DiscordRichPresence.vcxproj -> C:\Users\Mohamed Montaser\Desktop\sro_devkit v2.6.5\helpers\source\libs\DiscordRichPresence\RelWithDebInfo\DiscordRichPresence.lib
